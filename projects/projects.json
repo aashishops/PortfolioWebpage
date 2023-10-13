@@ -19,6 +19,16 @@
       "code": "https://github.com/aashishops/ASL-Detector"
     }
   },
+   {
+    "name": "Dog Breed Identifier",
+    "desc": "A dog breed identifier is a tool or app that recognizes and categorizes different dog breeds based on images or physical characteristics, helping users identify the breed of a dog.",
+    "image": "dog",
+    "category": "Data",
+    "links": {
+      "view": "https://github.com/aashishops/Dog-Breed-Classifier#dog-breed-classifier",
+      "code": "https://github.com/aashishops/Dog-Breed-Classifier"
+    }
+  },
   {
     "name": "Language Detector",
     "desc": "A language detector is a tool or algorithm designed to identify and determine the language in which a given text or speech is written or spoken.",
@@ -38,16 +48,7 @@
       "view": "https://phone-comparator.streamlit.app/",
       "code": "https://github.com/aashishops/Phone-comparator"
     }
-  },
-  {
-    "name": "Dog Breed Identifier",
-    "desc": "A dog breed identifier is a tool or app that recognizes and categorizes different dog breeds based on images or physical characteristics, helping users identify the breed of a dog.",
-    "image": "dog",
-    "category": "Data",
-    "links": {
-      "view": "https://github.com/aashishops/Dog-Breed-Classifier#dog-breed-classifier",
-      "code": "https://github.com/aashishops/Dog-Breed-Classifier"
-    }
   }
+
   
 ]
