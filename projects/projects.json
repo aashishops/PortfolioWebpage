@@ -23,7 +23,7 @@
     "name": "Dog Breed Identifier",
     "desc": "A dog breed identifier is a tool or app that recognizes and categorizes different dog breeds based on images or physical characteristics, helping users identify the breed of a dog.",
     "image": "dog",
-    "category": "Data",
+    "category": "Machine",
     "links": {
       "view": "https://github.com/aashishops/Dog-Breed-Classifier#dog-breed-classifier",
       "code": "https://github.com/aashishops/Dog-Breed-Classifier"
