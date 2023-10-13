@@ -49,19 +49,19 @@
     },
     {
         "name": "PyTorch",
-        "icon": "https://raw.githubusercontent.com/aashishops/Portfolio-Website/main/assets/images/skills/pytorch.png"
+        "icon": "https://raw.githubusercontent.com/aashishops/PortfolioWebpage/main/assets/images/skills/pytorch.png"
     },
     {
         "name": "Keras",
-        "icon": "https://raw.githubusercontent.com/aashishops/Portfolio-Website/main/assets/images/skills/keras.png"
+        "icon": "https://raw.githubusercontent.com/aashishops/PortfolioWebpage/main/assets/images/skills/keras.png"
     }, 
     {
         "name": "Scikit Learn",
-        "icon": "https://raw.githubusercontent.com/aashishops/Portfolio-Website/main/assets/images/skills/scikit_learn.png"
+        "icon": "https://raw.githubusercontent.com/aashishops/PortfolioWebpage/main/assets/images/skills/scikit_learn.png"
     }, 
     {
         "name": "Streamlit",
-        "icon": "https://raw.githubusercontent.com/aashishops/Portfolio-Website/main/assets/images/skills/streamlit.png"
+        "icon": "https://raw.githubusercontent.com/aashishops/PortfolioWebpage/main/assets/images/skills/streamlit.png"
     }
         
 ]
