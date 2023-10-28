@@ -414,8 +414,8 @@ header .navbar ul li a:hover {
   border-radius: 0.5em;
   transition: 0.3s;
   color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  background: #000000;
+  box-shadow: 0px 5px 10px rgba(30, 30, 31, 0.6);
   font-family: "Nunito", sans-serif;
 }
 .resumebtn .btn span {
@@ -429,7 +429,7 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .resumebtn .btn:hover {
-  background: #1a047e;
+  background: #000000;
 }
 .resumebtn .btn:hover i {
   transform: translateX(5px);
@@ -588,7 +588,7 @@ header .navbar ul li a:hover {
 }
 .education .box-container .box .content h3 {
   font-size: 2.5rem;
-  color: #012970;
+  color: #010101;
   padding: 0.5rem 0;
   font-weight: 600;
   text-align: left;
@@ -601,7 +601,7 @@ header .navbar ul li a:hover {
 }
 .education h4 {
   font-size: 2rem;
-  color: rgb(34, 109, 0);
+  color: rgb(0, 0, 0);
   text-align: left;
   margin: 1rem;
   font-family: "Nunito", sans-serif;
