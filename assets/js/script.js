@@ -60,7 +60,7 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Aashish Sekar";
-            $("#favicon").attr("href", "assets/images/hero1.png");
+            $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
             document.title = "Come Back To Portfolio";
