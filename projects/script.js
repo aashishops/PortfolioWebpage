@@ -37,7 +37,7 @@ function getProjects() {
 function showProjects(projects) {
     let projectsContainer = document.querySelector(".work .box-container");
     let projectsHTML = "";
-    let firstFiveProjects = projects.slice(0, 5);
+    let firstFiveProjects = projects.slice(0, 6);
 
     firstFiveProjects.forEach(project => {
         projectsHTML += `
