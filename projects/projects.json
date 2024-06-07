@@ -1,15 +1,5 @@
 [  
   {
-    "name": "Footistcs",
-    "desc": "Footistics is your go-to source for in-depth football analytics and statistics.",
-    "image": "footistics",
-    "category": "Data",
-    "links": {
-      "view": "https://footistics.streamlit.app/",
-      "code": "https://github.com/aashishops/Footistics"
-    }
-  },
-  {
     "name": "Hymnastic - A Music App",
     "desc": "Developed a music recommendation app using Java Spring Boot and Thymeleaf, integrated with the Spotify API to display listening activity and preferences. Enhanced user experience with tailored recommendations using machine learning models in Python, integrated via Jython. Efficiently managed user data and song metadata with a MySQL database.",
     "image": "hymnastic",
@@ -57,6 +47,16 @@
     "links": {
       "view": "https://phone-comparator.streamlit.app/",
       "code": "https://github.com/aashishops/Phone-comparator"
+    }
+  },
+  {
+    "name": "Footistcs",
+    "desc": "Footistics is your go-to source for in-depth football analytics and statistics.",
+    "image": "footistics",
+    "category": "Data",
+    "links": {
+      "view": "https://footistics.streamlit.app/",
+      "code": "https://github.com/aashishops/Footistics"
     }
   }
   

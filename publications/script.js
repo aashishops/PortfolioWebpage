@@ -20,7 +20,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Projects | Portfolio Aashish Sekar";
+            document.title = "Publications | Portfolio Aashish Sekar";
             $("#favicon").attr("href", "/assets/images/favicon.png");
         }
         else {
@@ -30,9 +30,9 @@ document.addEventListener('visibilitychange',
     });
 
 
-// fetch projects start
-function getProjects() {
-    return fetch("projects.json")
+// fetch Publications start
+function getPublications() {
+    return fetch("publications.json")
         .then(response => response.json())
         .then(data => {
             return data
@@ -40,14 +40,14 @@ function getProjects() {
 }
 
 
-function showProjects(projects) {
-    let projectsContainer = document.querySelector(".work .box-container");
-    let projectsHTML = "";
-    projects.forEach(project => {
-        projectsHTML += `
+function showPublications(Publications) {
+    let PublicationsContainer = document.querySelector(".work .box-container");
+    let PublicationsHTML = "";
+    Publications.forEach(project => {
+        PublicationsHTML += `
         <div class="grid-item ${project.category}">
         <div class="box tilt" style="width: 380px; margin: 1rem">
-      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+      <img draggable="false" src="/assets/images/Publications/${project.image}.png" alt="project" />
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>
@@ -63,7 +63,7 @@ function showProjects(projects) {
     </div>
     </div>`
     });
-    projectsContainer.innerHTML = projectsHTML;
+    PublicationsContainer.innerHTML = PublicationsHTML;
 
     // vanilla tilt.js
     // VanillaTilt.init(document.querySelectorAll(".tilt"), {
@@ -79,7 +79,7 @@ function showProjects(projects) {
     //     reset: true
     // });
 
-    // /* SCROLL PROJECTS */
+    // /* SCROLL Publications */
     // srtop.reveal('.work .box', { interval: 200 });
 
     // isotope filter products
@@ -100,10 +100,10 @@ function showProjects(projects) {
     });
 }
 
-getProjects().then(data => {
-    showProjects(data);
+getPublications().then(data => {
+    showPublications(data);
 })
-// fetch projects end
+// fetch Publications end
 
 
 
